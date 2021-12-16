@@ -1,0 +1,9 @@
+{
+	"name": "covid-rp-adf",
+	"location": "eastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1eb54028-9fb8-4a2f-b736-90d0f787c268",
+		"tenantId": "f01e930a-b52e-42b1-b70f-a8882b5d043b"
+	}
+}
