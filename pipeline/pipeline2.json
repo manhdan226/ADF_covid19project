@@ -20,11 +20,7 @@
 						"type": "DataFlowReference"
 					},
 					"staging": {
-						"linkedService": {
-							"referenceName": "gen2_covidrpdl",
-							"type": "LinkedServiceReference"
-						},
-						"folderPath": "processed"
+						"folderPath": ""
 					},
 					"compute": {
 						"coreCount": 8,
