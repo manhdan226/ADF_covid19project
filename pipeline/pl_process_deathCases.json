@@ -1,5 +1,5 @@
 {
-	"name": "pl_process_deathncases",
+	"name": "pl_process_deathCases",
 	"properties": {
 		"activities": [
 			{
@@ -16,7 +16,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataflow": {
-						"referenceName": "dataflow1",
+						"referenceName": "df_process_deathCases",
 						"type": "DataFlowReference"
 					},
 					"staging": {
