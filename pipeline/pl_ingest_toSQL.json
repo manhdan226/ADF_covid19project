@@ -19,7 +19,7 @@
 						"type": "DelimitedTextSource",
 						"storeSettings": {
 							"type": "AzureBlobFSReadSettings",
-							"fileListPath": "processed/ecdc/cases_deaths/part-00199-tid-6912008417014432882-c297387a-82cf-44e7-ae5b-2eac5fb58694-1298-1-c000.csv",
+							"recursive": true,
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
