@@ -1,0 +1,12 @@
+{
+	"name": "azure_covid_db",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=dannm2coviddb.database.windows.net;initial catalog=covid-db;user id=dannm2",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDUxMTEyRDNBLTA3Q0QtNDE3OC1BMTQ5LUQ0RTE5RjBGRTQwRl9mNmExZGIxZC1mZDJjLTQ3ZDYtYWUxOC01NDQxZDI1NTQyMWMiDQp9"
+		}
+	}
+}
