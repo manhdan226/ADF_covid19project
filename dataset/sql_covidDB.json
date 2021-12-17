@@ -1,0 +1,16 @@
+{
+	"name": "sql_covidDB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "azure_covid_db",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "covid_reporting",
+			"table": "cases_and_deaths"
+		}
+	}
+}
